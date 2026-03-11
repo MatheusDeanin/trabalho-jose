@@ -15,9 +15,9 @@ table{
 }
 button{
     background-color: gainsboro;
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow:  0px 0px 2px 2px black;
     border-radius: 1px;
-    padding: 30px 10px;
+    padding: 25px 33px;
     cursor:grab;       
 }
 
