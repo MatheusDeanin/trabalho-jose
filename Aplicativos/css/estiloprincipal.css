@@ -10,6 +10,15 @@ body {
     background-color: #008C8C;
     color: black;
 }
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+main{
+    text-align: justify;
+}
 footer{
     text-align: center;
     margin: 50px;
