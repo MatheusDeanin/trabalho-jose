@@ -12,6 +12,19 @@ header{
 main{
     text-align: justify;
 }
+nav{
+    display: block;
+    margin: 10px;
+
+}
+a{
+    
+    border: solid 1px black;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
 h1{         
     
     font-size: 30px;
