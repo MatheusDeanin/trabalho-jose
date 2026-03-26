@@ -6,6 +6,14 @@ h1 {
     text-align: center;
 }
 
+a{
+    
+    border: solid 1px black;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
 table{
     background-color: white ;
     border-radius: 10px;
@@ -31,4 +39,12 @@ button.houver{
 }
 button.active{
     background-color: aliceblue;
+}
+nav{
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+.Cartela{
+    margin: 20px;
 }

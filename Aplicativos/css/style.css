@@ -15,10 +15,9 @@ main{
 nav{
     display: block;
     margin: 10px;
-
+    text-align: center;
 }
 a{
-    
     border: solid 1px black;
     padding: 5px;
     text-decoration: none;
@@ -76,18 +75,38 @@ button.houver{
 button.active{
     background-color: aliceblue;
 }
-/*.pixel-art-gradient {
-  height: 945px; /* Define a altura do elemento como 100 pixels 
-  background: linear-gradient(
-    90deg, /* A cor flui da esquerda para a direita 
-    #ff4500 0%,   /* Cor 1 (Laranja Vermelho) inicia em 0% 
-    #ff4500 25%,  /* Cor 1 termina em 25% 
-    #ff8c00 25%,  /* Cor 2 (Laranja Escuro) começa imediatamente em 25% 
-    #ff8c00 50%,  /* Cor 2 termina em 50% 
-    #ffd700 50%,  /* Cor 3 (Ouro) começa em 50% 
-    #ffd700 75%,  /* Cor 3 termina em 75% 
-    #7fff00 75%,  /* Cor 4 (Verde) começa em 75% 
-    #7fff00 100%  /* Cor 4 termina em 100% 
-  );
-}*/
+table{
+    background-color: white ;
+    border-radius: 10px;
+    border: 3px solid;
+    margin: 50px auto;
+    text-align: center;
+}
+button{
+    background-color: gainsboro;
+    box-shadow:  0px 0px 2px 2px black;
+    border-radius: 1px;
+    padding: 25px 33px;
+    cursor:grab;       
+}
 
+td{
+    border: 2px solid;
+
+
+}
+.centralizar-rodapé{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer1{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}
+.footer2{
+    margin: 10px;
+    width: 700px;
+    height: 30px;
+}
