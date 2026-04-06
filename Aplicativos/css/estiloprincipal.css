@@ -25,8 +25,8 @@ nav{
 }
 
 footer{
+    margin-top: 110px;
     text-align: justify;
-    display: inline-flexbox;
     background-color: #577e88;
 
 }
@@ -43,6 +43,7 @@ hr{
     margin:0px;  
 }
 button{
+    background-color: gainsboro;
     border-radius: 15px;
     box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.308);
     padding: 10px 15px;
@@ -55,7 +56,6 @@ button.active{
     background-color: aliceblue;
 }
 a{
-    border: solid 1px black;
     padding: 5px;
     text-decoration: none;
     color: black;
@@ -67,11 +67,10 @@ h1{
     padding-bottom: 50px;
 }
 
-p{ 
-    text-align: justify;   
-    margin-left: 30px;
+p{
+    text-align: center;
+    margin-bottom: 20px;
     font-size:20px;
-    margin-right: 20px;
 }
 .centralizar-rodapé{
     display: flex;
@@ -113,4 +112,8 @@ img{
     box-shadow: 5px 5px 5px 5px rgb(55, 0, 219);
     border-radius: 20px ;
     border: 5px solid blue;
+}
+.legenda{
+    text-align: center;
+    margin: 20px;
 }
