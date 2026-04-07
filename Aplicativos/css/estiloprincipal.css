@@ -11,6 +11,7 @@ body {
     color: rgb(253, 252, 252);
 }
 header{
+    display: block;
     text-align: center; 
 }
 main{
@@ -70,7 +71,7 @@ h1{
 p{
     text-align: center;
     margin-bottom: 20px;
-    font-size:20px;
+    font-size:25px;
 }
 .centralizar-rodapé{
     display: flex;
@@ -122,12 +123,21 @@ img{
     text-align: center;
 }
 .fonte1{
- 
+    text-align: center;
+    margin-left: 357px;
 }
 .fonte2{
-
+    margin-left: 238px;
 
 }
 .fonte3{
-   
+    margin-left: 257px;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.arrumar-logo{
+    display: flex;
+    margin-left: 190px;   
 }
