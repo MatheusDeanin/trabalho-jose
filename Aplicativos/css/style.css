@@ -18,11 +18,11 @@ nav{
     text-align: center;
 }
 a{
-    border: solid 1px black;
     padding: 5px;
     text-decoration: none;
     color: black;
 }
+
 
 h1{         
     
@@ -36,18 +36,21 @@ h1{
 
 .win10image {
     margin: 30px;
+    margin-bottom: 0px;
     border-radius: 5px;
     border: 3px solid black ;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.103);
 }
 .winvistaimage{
     margin: 30px;
+    margin-bottom: 0px;
     border-radius: 5px;
     border: 3px solid black;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.103);
 }
 .win3image{
     margin: 30px;
+    margin-bottom: 0px;
     border-radius: 5px;
     border: 3px solid black;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.103);
