@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Garante que padding não quebre o tamanho dos elementos */
+    box-sizing: border-box; 
 }
 html {
     scroll-behavior: smooth;
@@ -17,7 +17,7 @@ body {
     flex-direction: column;
 }
 
-/* --- NAVEGAÇÃO --- */
+
 nav {
     background-color: #577e88;
     padding: 15px;
@@ -44,13 +44,13 @@ button:hover {
     transform: translateY(-2px);
 }
 nav button {
-    padding: 12px 25px; /* Botões maiores e mais fáceis de clicar */
+    padding: 12px 25px; 
     font-size: 16px;
 }
 
-/* --- CONTEÚDO PRINCIPAL --- */
+
 main {
-    flex: 1; /* Faz o conteúdo esticar e empurrar o footer para baixo */
+    flex: 1; 
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ p {
     text-align: center;
 }
 
-/* --- IMAGENS RESPONSIVAS --- */
+
 .imagem, .centralizar-imagem {
     text-align: center;
     margin: 30px 0;
@@ -84,27 +84,27 @@ img {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 .centralizar-imagem {
-    display: flex;       /* Coloca uma do lado da outra */
+    display: flex;       
     justify-content: center; 
     align-items: center; 
-    flex-wrap: wrap;     /* Se a tela for pequena, elas pulam linha */
-    gap: 20px;           /* Espaço entre elas */
+    flex-wrap: wrap;     
+    gap: 20px;          
     margin: 40px 0;
 }
 
 .centralizar-imagem img {
-    width: 300px;        /* Define uma largura padrão */
-    height: 200px;       /* Define uma altura padrão */
-    object-fit: cover;   /* CORTA a imagem para caber no retângulo sem achatar */
+    width: 300px;        
+    height: 200px;       
+    object-fit: cover;   
     border: 3px solid #fff;
     transition: transform 0.3s;
 }
 
 .centralizar-imagem img:hover {
-    transform: scale(1.1); /* Efeito de zoom quando passa o mouse */
+    transform: scale(1.1); 
 }
 
-/* Para a logo do header */
+
 .logo {
     border: none;
     box-shadow: none;
@@ -112,9 +112,9 @@ img {
     margin-bottom: 15px;
 }
 
-/* --- TABELA --- */
+
 .tabela-container {
-    overflow-x: auto; /* Scroll se a tabela for muito larga para o celular */
+    overflow-x: auto; 
     margin: 40px 0;
 }
 
@@ -137,7 +137,7 @@ th {
     background-color: #3e5a62;
 }
 
-/* --- RODAPÉ --- */
+
 footer {
     background-color: #577e88;
     padding: 20px;
@@ -161,37 +161,37 @@ a {
 a:hover {
     text-decoration: underline;
 }
-/* Container principal da galeria */
+
 .container-galeria {
-    display: flex;          /* Faz os itens ficarem lado a lado */
-    flex-wrap: wrap;        /* Se a tela for pequena (celular), eles pulam linha */
-    justify-content: center;/* Centraliza os itens no meio da tela */
-    gap: 30px;              /* Espaço entre os blocos */
-    margin: 40px auto;      /* Espaço em cima/baixo e centraliza o container */
-    max-width: 1200px;      /* Largura máxima para não espalhar demais */
+    display: flex;          
+    flex-wrap: wrap;        
+    justify-content: center;
+    gap: 30px;              
+    margin: 40px auto;      
+    max-width: 1200px;     
 }
 
-/* Cada bloco individual (Imagem + Legenda) */
+
 .card-home {
     display: flex;
-    flex-direction: column; /* Faz a fonte ficar embaixo da imagem dentro do card */
-    align-items: center;    /* Centraliza a imagem e o texto horizontalmente */
-    width: 300px;           /* Largura fixa para manter a simetria */
+    flex-direction: column; 
+    align-items: center;    
+    width: 300px;          
 }
 
 .card-home img {
-    width: 100%;            /* Ocupa os 300px do card */
-    height: 200px;          /* Altura padrão para todas */
-    object-fit: cover;      /* Ajusta a imagem sem distorcer */
+    width: 100%;           
+    height: 200px;          
+    object-fit: cover;      
     border-radius: 10px;
     border: 3px solid #fff;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-/* Texto da fonte */
+
 .fonte-link {
-    font-size: 0.85rem !important; /* Texto pequeno */
-    margin-top: 10px;              /* Espaço entre a foto e o texto */
+    font-size: 0.85rem !important; 
+    margin-top: 10px;              
     color: #00ffff;
     text-align: center;
 }
