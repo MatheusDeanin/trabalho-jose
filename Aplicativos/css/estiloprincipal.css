@@ -21,7 +21,11 @@ body {
     flex-direction: column;
 }
 
-
+.imagem-animado{
+    justify-items: baseline;
+    text-align: baseline;
+    align-self: baseline;
+}
 nav {
     background-color: #577e88;
     padding: 15px;
@@ -108,15 +112,29 @@ img {
     transform: scale(1.1); 
 }
 
-
+.container-3d {
+  perspective: 1000px;
+  width: 300px;
+  margin: 50px auto; 
+}
 .logo {
     border: none;
     box-shadow: none;
     width: 150px;
     margin-bottom: 15px;
 }
+.Girar3D{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    animation: girar3D 5s infinite linear;
+    transform-style: preserve-3d;
+}
 
-
+.piscar-imagem {
+  width: 10vw; 
+  animation: aparecerDesaparecer 1s forwards ease-in-out;
+}
 .tabela-container {
     overflow-x: auto; 
     margin: 40px 0;
@@ -206,4 +224,23 @@ a:hover {
 .fonte-link a {
     color: #fff;
     text-decoration: underline;
+}
+@keyframes girar3D {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes aparecerDesaparecer {
+  0%, 100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  50% {
+    opacity: 1;
+    visibility: visible;
+  }
 }
