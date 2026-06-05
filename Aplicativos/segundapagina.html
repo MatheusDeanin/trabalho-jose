@@ -3,79 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Geral | Windows Neon Retro</title>
     <link rel="stylesheet" href="./css/estiloprincipal.css">
-    <title>Tabela Geral - Evolução Windows</title>
 </head>
 <body>
-    <nav>
-        <button id="Inicial">Pagina Inicial</button>
-        <button id="Tabela">Tabela Geral</button>
-        <button id="Era1">Primeiras versões de estilos</button>
-        <button id="Era2">Segunda versões de estilos</button>
-        <button id="Era3">Terceira versões de estilos</button>
-        <button id="Era4">Quarta versões de estilos</button>
-        <button id="Era5">Quinta versões de estilos</button>
-    </nav>
+    <div class="background-animation"></div>
+    <div class="container">
+        <nav class="neon-menu">
+            <button id="Inicial" class="neon-btn">Inicial</button>
+            <button id="Tabela" class="neon-btn">Tabela Geral</button>
+            <button id="Era1" class="neon-btn">Era 1</button>
+            <button id="Era2" class="neon-btn">Era 2</button>
+            <button id="Era3" class="neon-btn">Era 3</button>
+            <button id="Era4" class="neon-btn">Era 4</button>
+            <button id="Era5" class="neon-btn">Era 5</button>
+        </nav>
 
-    <main>
-        <div class="imagem-animado">
-            <img src="images/billgates.png" alt="Imagem do billgates" class="piscar-imagem">
-        </div>
-        <header>
-            <h1>Linha do Tempo Detalhada</h1>
-        </header>
+        <main>
+            <header class="hero">
+                <div class="logo-wrapper">
+                    <div class="girar3d">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg" class="logo-neon" alt="Windows Logo">
+                    </div>
+                </div>
+                <h1 class="titulo-principal">Linha do Tempo Detalhada</h1>
+            </header>
 
-        <div class="tabela-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Versão</th>
-                        <th>Descrição Estética</th>
-                        <th>Lançamento</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Windows 1.0-2.0-3.0</td>
-                        <td>Estética Pixelada, monocromática e com grande presença de esqueumorfismo <br>(estilo de design que imita a aparência, textura e funcionalidade de objetos do mundo físico em interfaces digitais). <br>ética extremamente simples, pelas limitações do momento.</td>  
-                        <td>20 de novembro de 1985, 9 de dezembro de 1987 e 22 de maio de 1990.</td>
-                    </tr>   
-                    <tr>
-                        <td>Windows 95-98-me</td>
-                        <td>Melhora geral no estilo anterior, devido ao grande avanço em software e hardware entre as duas eras, porém<br>ainda se mantendo fiel ao mesmo estilo. Estética Pixelada, menos monocromática e com grande presença de <br>Esqueumorfismo.<br></td>
-                        <td>24 de agosto de 1995, 25 de junho de 1998, 14 de setembro de 2000.</td>          
-                    </tr>
-                    <tr>
-                        <td>Windows Xp-Vista-7</td>
-                        <td>Teve uma grande mudança de design, com um uma paleta de cores mais azul, aparência mais otimista<br>e iniciando o começo da estética "frutiger aero", e inspirado em materiais transparentes, como vidro e água.</td>
-                        <td>25 de outubro de 2001, 30 de janeiro de 2007, 22 de outubro de 2009</td>
-                    </tr>
-                    <tr>    
-                        <td>Windows 8-8.1</td>
-                        <td>Mudança drástica em relação a suas versões anteriores, com presença de "flat design", estética que prioriza<br>cores sólidas, botões retangulares, e principalmente o minimalismo. Além disso, o menu "iniciar" foi retirado.</td>
-                        <td>26 de outubro de 2012, 17 de outubro de 2013</td>
-                    </tr>
-                    <tr>    
-                        <td>Windows 10-11</td>
-                        <td>Após o fracasso comercial do Windows 8 e 8.1, a microsoft mudou de forma drástica de novo. Voltou com o menu <br> iniciar, paleta de cores mais suave, com profundidade e camadas, e mistura de neomorfismo e esqueumorfismo.</td>
-                        <td>29 de julho de 2015, 5 de outubro de 2021.</td>
-                    </tr>
-                </tbody>
-            <tfoot>
-            <tr>              
-                <td colspan="4"><a  href="https://olhardigital.com.br/2020/11/20/noticias/anos-de-evolucao-conheca-a-historia-do-windows/" target="_blank">olhardigital.com.br</a> e <a href="https://microsoft.design/articles/a-glimpse-into-the-history-of-windows-design/" target="_blank">microsoft.desing</a></td>
-            </tr>
-        </tfoot>
-        </table>
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr><th>Versão</th><th>Descrição Estética</th><th>Lançamento</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Windows 1.0-2.0-3.0</td>
+                            <td>Estética Pixelada, monocromática e com grande presença de esqueumorfismo <br>(estilo de design que imita a aparência, textura e funcionalidade de objetos do mundo físico em interfaces digitais). <br>Ética extremamente simples, pelas limitações do momento.</td>
+                            <td>20 de novembro de 1985, 9 de dezembro de 1987 e 22 de maio de 1990.</td>
+                        </tr>
+                        <tr><td>Windows 95-98-me</td>
+                            <td>Melhora geral no estilo anterior, devido ao grande avanço em software e hardware entre as duas eras, porém<br>ainda se mantendo fiel ao mesmo estilo. Estética Pixelada, menos monocromática e com grande presença de <br>Esqueumorfismo.</td>
+                            <td>24 de agosto de 1995, 25 de junho de 1998, 14 de setembro de 2000.</td>
+                        </tr>
+                        <tr><td>Windows Xp-Vista-7</td>
+                            <td>Teve uma grande mudança de design, com um uma paleta de cores mais azul, aparência mais otimista<br>e iniciando o começo da estética "frutiger aero", e inspirado em materiais transparentes, como vidro e água.</td>
+                            <td>25 de outubro de 2001, 30 de janeiro de 2007, 22 de outubro de 2009</td>
+                        </tr>
+                        <tr><td>Windows 8-8.1</td>
+                            <td>Mudança drástica em relação a suas versões anteriores, com presença de "flat design", estética que prioriza<br>cores sólidas, botões retangulares, e principalmente o minimalismo. Além disso, o menu "iniciar" foi retirado.</td>
+                            <td>26 de outubro de 2012, 17 de outubro de 2013</td>
+                        </tr>
+                        <tr><td>Windows 10-11</td>
+                            <td>Após o fracasso comercial do Windows 8 e 8.1, a microsoft mudou de forma drástica de novo. Voltou com o menu <br> iniciar, paleta de cores mais suave, com profundidade e camadas, e mistura de neomorfismo e esqueumorfismo.</td>
+                            <td>29 de julho de 2015, 5 de outubro de 2021.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr><td colspan="3"><a href="https://olhardigital.com.br/2020/11/20/noticias/anos-de-evolucao-conheca-a-historia-do-windows/" target="_blank">olhardigital.com.br</a> e <a href="https://microsoft.design/articles/a-glimpse-into-the-history-of-windows-design/" target="_blank">microsoft.design</a></td></tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+
+        <footer class="footer-neon">
+            <div class="footer-content">
+                <p>Todos os direitos reservados</p>
+                <p>Desenvolvido por Bruno, Kauã e Matheus</p>
+            </div>
+        </footer>
     </div>
-    </main>
 
-    <footer>
-        <div class="centralizar-rodapé">
-            <p>Todos os direitos reservados</p>
-            <p>Desenvolvido por Bruno, Kauã e Matheus</p>
-        </div>
-    </footer>
+// jumpscare do bill maldito gates
+    <div class="easter-egg-bill">
+        <img src="./images/billgates.png" alt="Bill Gates">
+    </div>
 
     <script src="./javascript/script.js"></script>
 </body>

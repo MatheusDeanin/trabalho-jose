@@ -3,65 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estiloprincipal.css">
     <title>As estéticas do Windows</title>
+    <link rel="stylesheet" href="./css/estiloprincipal.css">
 </head>
 <body>
-    <div id="Container">
-        <nav>
-            <button id="Inicial">Pagina Inicial</button>
-            <button id="Tabela">Tabela Geral</button>
-            <button id="Era1">Primeiras versões de estilos</button>
-            <button id="Era2">Segunda versões de estilos</button>
-            <button id="Era3">Terceira versões de estilos</button>
-            <button id="Era4">Quarta versões de estilos</button>
-            <button id="Era5">Quinta versões de estilos</button>
+    <div class="background-animation"></div>
+    <div class="container">
+        <nav class="neon-menu">
+            <button id="Inicial" class="neon-btn">Inicial</button>
+            <button id="Tabela" class="neon-btn">Tabela Geral</button>
+            <button id="Era1" class="neon-btn">Era 1</button>
+            <button id="Era2" class="neon-btn">Era 2</button>
+            <button id="Era3" class="neon-btn">Era 3</button>
+            <button id="Era4" class="neon-btn">Era 4</button>
+            <button id="Era5" class="neon-btn">Era 5</button>
         </nav>
 
         <main>
-            <header>
-                <div style="text-align: center;">
-                    <div class="conatiner-3D">
-                        <div class="Girar3D">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg" class="logo">
-                        </div>
+            <header class="hero">
+                <div class="logo-wrapper">
+                    <div class="girar3d">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg" class="logo-neon" alt="Windows Logo">
                     </div>
-                    <h1>A evolução do design no Windows</h1>
                 </div>
+                <h1 class="titulo-principal">A evolução do <span class="neon-text">design no Windows</span></h1>
             </header>
 
-            <section>
-                <p> Por ter foco no usuário leigo, o Windows é usado atualmente em 70% dos computadores de todo o mundo, sendo fácil de usar e simples. 
+            <section class="intro-texto">
+                <p>Por ter foco no usuário leigo, o Windows é usado atualmente em 70% dos computadores de todo o mundo, sendo fácil de usar e simples. 
                 <br>Mas ao que isso se deve? Simples: ao design e a estética única dos primeiros modelos de Windows. 
                 <br>O design é a primeira coisa que o usuário vê em um sistema operacional, sendo o que mais chama atenção ao público geral, e o encanta.
                 <br>Mas o que o Windows faz de tão bom em seu design? Clique nos botões acima, e descubra!</p>
             </section>
 
-    <div class="container-galeria">
-        <div class="card-home">
-            <img src="./images/Logo-windows3.png" alt="Windows 3">
-            <p class="fonte-link">Fonte: <a href="https://simple.wikipedia.org/wiki/Windows_3.x" target="_blank">Wikipedia</a></p>
-        </div>
-
-        <div class="card-home">
-            <img src="./images/windows-vista.jpg" alt="Windows Vista">
-            <p class="fonte-link">Fonte: <a href="https://www.techtudo.com.br" target="_blank">TechTudo</a></p>
-        </div>
-
-        <div class="card-home">
-            <img src="./images/windows-10-wallpaper.jpg" alt="Windows 10">
-            <p class="fonte-link">Fonte: <a href="https://www.makeuseof.com" target="_blank">MakeUseOf</a></p>
-        </div>
-    </div>
+            <div class="galeria-grid">
+                <div class="card-glass">
+                    <img src="./images/Logo-windows3.png" alt="Windows 3"">
+                    <p class="fonte-link">Fonte: <a href="https://simple.wikipedia.org/wiki/Windows_3.x" target="_blank">Wikipedia</a></p>
+                </div>
+                <div class="card-glass">
+                    <img src="./images/windows-vista.jpg" alt="Windows Vista"">
+                    <p class="fonte-link">Fonte: <a href="https://www.techtudo.com.br" target="_blank">TechTudo</a></p>
+                </div>
+                <div class="card-glass">
+                    <img src="./images/windows-10-wallpaper.jpg" alt="Windows 10">
+                    <p class="fonte-link">Fonte: <a href="https://www.makeuseof.com" target="_blank">MakeUseOf</a></p>
+                </div>
+            </div>
         </main>
 
-        <footer>
-            <div class="centralizar-rodapé">
+        <footer class="footer-neon">
+            <div class="footer-content">
                 <p>Todos os direitos reservados</p>
                 <p>Desenvolvido por Bruno, Kauã e Matheus</p>
             </div>
         </footer>
     </div>
+
     <script src="./javascript/script.js"></script>
 </body>
 </html>

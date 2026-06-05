@@ -3,46 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows XP/Vista/7 | Neon Retro</title>
     <link rel="stylesheet" href="./css/estiloprincipal.css">
-    <title>Windows Era - História</title>
 </head>
 <body>
-    <nav>
-        <button id="Inicial">Pagina Inicial</button>
-        <button id="Tabela">Tabela Geral</button>
-        <button id="Era1">Primeiras versões de estilos</button>
-        <button id="Era2">Segunda versões de estilos</button>
-        <button id="Era3">Terceira versões de estilos</button>
-        <button id="Era4">Quarta versões de estilos</button>
-        <button id="Era5">Quinta versões de estilos</button>
-    </nav>
+    <div class="background-animation"></div>
+    <div class="container">
+        <nav class="neon-menu">
+            <button id="Inicial" class="neon-btn">Inicial</button>
+            <button id="Tabela" class="neon-btn">Tabela Geral</button>
+            <button id="Era1" class="neon-btn">Era 1</button>
+            <button id="Era2" class="neon-btn">Era 2</button>
+            <button id="Era3" class="neon-btn">Era 3</button>
+            <button id="Era4" class="neon-btn">Era 4</button>
+            <button id="Era5" class="neon-btn">Era 5</button>
+        </nav>
 
-    <main>
-        
-        <header>
-            <h1>Windows XP, Vista e 7</h1>
-        </header>
-        
-        <article>
-            <p>
-            A fase seguinte, composta pelo Windows XP, Vista e 7, representou uma explosão de criatividade e recursos visuais. O XP rompeu com o cinza e introduziu o tema Luna, com cores vibrantes e botões arredondados que pareciam feitos de plástico. Logo depois, o Vista e o 7 elevaram a estética ao luxo com a interface Frutiger Aero, utilizando a transparência para imitar o vidro jateado e reflexos dinâmicos. Essa era buscou o realismo máximo, onde cada elemento tinha brilho, textura e sombras projetadas, tornando a interface visualmente rica e sofisticada.</p>
+        <main>
+            <header class="hero">
+                <div class="logo-wrapper">
+                    <div class="girar3d">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg" class="logo-neon" alt="Windows Logo">
+                    </div>
+                </div>
+                <h1 class="titulo-principal">Windows XP, Vista e 7</h1>
+            </header>
 
-            <div class="imagem">
-                <img src="./images/Windows_Vista.png" alt="Interface do Windows Vista">
+            <section class="intro-texto">
+                <p>A fase seguinte, composta pelo Windows XP, Vista e 7, representou uma explosão de criatividade e recursos visuais. O XP rompeu com o cinza e introduziu o tema Luna, com cores vibrantes e botões arredondados que pareciam feitos de plástico. Logo depois, o Vista e o 7 elevaram a estética ao luxo com a interface Frutiger Aero, utilizando a transparência para imitar o vidro jateado e reflexos dinâmicos. Essa era buscou o realismo máximo, onde cada elemento tinha brilho, textura e sombras projetadas, tornando a interface visualmente rica e sofisticada.</p>
+            </section>
+
+            <div class="galeria-grid" style="grid-template-columns: 1fr;">
+                <div class="card-glass">
+                    <img src="./images/Windows_Vista.png" alt="Windows Vista" 
+                         style="object-fit: contain; max-height: 400px; width: auto; margin: 0 auto; display: block;">
+                    <p class="fonte-link">Fonte: <a href="https://en.wikipedia.org/wiki/Windows_Vista" target="_blank">Wikipedia</a></p>
+                </div>
             </div>
+        </main>
 
-            <p style="font-size: 0.9rem; color: #ccc;">
-                Fonte: <a href="https://en.wikipedia.org/wiki/Windows_Vista" target="_blank">Wikipedia</a>
-            </p>
-        </article>
-    </main>
-
-    <footer>
-        <div class="centralizar-rodapé">
-            <p>Todos os direitos reservados</p>
-            <p>Desenvolvido por Bruno, Kauã e Matheus</p>
-        </div>
-    </footer>
+        <footer class="footer-neon">
+            <div class="footer-content">
+                <p>Todos os direitos reservados</p>
+                <p>Desenvolvido por Bruno, Kauã e Matheus</p>
+            </div>
+        </footer>
+    </div>
 
     <script src="./javascript/script.js"></script>
 </body>
