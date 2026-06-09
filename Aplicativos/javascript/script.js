@@ -5,7 +5,8 @@ const botoes = [
     { id: "Era2", link: "windows95-98.html" },
     { id: "Era3", link: "windowsXP-Vista-7.html" },
     { id: "Era4", link: "windows8-8_1.html" },
-    { id: "Era5", link: "windows10-11.html" }
+    { id: "Era5", link: "windows10-11.html" },
+    { id: "Era6", link: "windows12.html" }
 ];
 
 botoes.forEach(botao => {

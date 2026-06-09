@@ -15,7 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Fundo animado com grid de linhas neon */
 .background-animation {
     position: fixed;
     top: 0;
@@ -32,10 +31,9 @@ body {
 
 @keyframes fundoAndar {
     from { background-position: 0 0; }
-    to { background-position: 40px 40px; }
+    to { background-position: 150px 150px; }
 }
 
-/* Container principal com GRID avançado */
 .container {
     display: grid;
     grid-template-areas:
@@ -51,7 +49,6 @@ body {
     z-index: 1;
 }
 
-/* ===== MENU NEON ===== */
 .neon-menu {
     grid-area: nav;
     display: flex;
@@ -91,7 +88,6 @@ body {
     border-color: #fff;
 }
 
-/* ===== HEADER HERO ===== */
 .hero {
     text-align: center;
     margin-bottom: 40px;
@@ -143,7 +139,6 @@ body {
     100% { opacity: 1; transform: translateY(0); filter: blur(0);}
 }
 
-/* Texto introdutório */
 .intro-texto p {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -159,7 +154,6 @@ body {
     margin-right: auto;
 }
 
-/* Galeria com GRID e cards glassmorphism */
 .galeria-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -226,7 +220,6 @@ body {
     text-shadow: 0 0 4px cyan;
 }
 
-/* Rodapé neon */
 .footer-neon {
     grid-area: footer;
     margin-top: 50px;
@@ -246,8 +239,6 @@ body {
     font-family: 'Orbitron', monospace;
     font-size: 0.8rem;
 }
-
-/* Responsividade */
 @media (max-width: 768px) {
     .container {
         padding: 10px;
@@ -284,8 +275,6 @@ body {
     }
 }
 
-/* Estilos para as outras páginas (tabela, eras) serão automaticamente puxados pelo mesmo CSS */
-/* Garantindo que tabelas, imagens auxiliares fiquem consistentes */
 .tabela-container {
     overflow-x: auto;
     margin: 30px 0;
@@ -309,17 +298,16 @@ th {
 button, .neon-btn {
     font-family: inherit;
 }
-/* Garantir que imagens das eras apareçam inteiras */
+/*Garante que as imagens apareçam inteiras */
 .card-glass img {
     width: 100%;
     height: auto;
     max-height: 400px;
-    object-fit: contain; /* em vez de cover, para não cortar */
+    object-fit: contain;
     background-color: rgba(0,0,0,0.3);
     border-radius: 20px;
 }
 
-/* Para as imagens dentro de .centralizar-imagem (caso ainda exista) */
 .centralizar-imagem img {
     max-width: 100%;
     height: auto;
@@ -327,23 +315,21 @@ button, .neon-btn {
     border-radius: 20px;
 }
 
-/* Ajuste na galeria para imagens menores */
 .galeria-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     align-items: start;
-}/* Garantir que imagens das eras apareçam inteiras */
+}y
 .card-glass img {
     width: 100%;
     height: auto;
     max-height: 400px;
-    object-fit: contain; /* em vez de cover, para não cortar */
+    object-fit: contain;
     background-color: rgba(0,0,0,0.3);
     border-radius: 20px;
 }
 
-/* Para as imagens dentro de .centralizar-imagem (caso ainda exista) */
 .centralizar-imagem img {
     max-width: 100%;
     height: auto;
@@ -376,7 +362,7 @@ button, .neon-btn {
     border-radius: 20px;
     box-shadow: 0 0 20px cyan;
 }
-
+/* Easter egg do Bill Portões KKKK*/
 @keyframes easterEgg {
     0% { opacity: 0; transform: scale(0.8); }
     80% { opacity: 0; transform: scale(0.8); } /* 2 segundos invisível */
